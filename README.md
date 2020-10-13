@@ -40,12 +40,12 @@ function postData(url, data) {
 const url = 'Your API Request URL';
 const data = '{ Your data need JSON Object format }';
     
-    postData(url, data)
-    .then(data => {
-        // response
-        const result=data.result ;
-    })
-    .catch(error => console.error(error))
+postData(url, data)
+.then(data => {
+    // response
+    const result=data.result ;
+})
+.catch(error => console.error(error))
 ```
 
 ## Demo
